@@ -46,7 +46,7 @@ class BillsController < ApplicationController
     @bill.destroy
 
     respond_to do |format|
-      format.html { redirect_to group_url(params[:group_id]), notice: 'Bill destroyed successfully.' }
+      format.html { redirect_to group_url(params[:group_id]), notice: 'Bill deleted successfully.' }
       format.json { head :no_content }
     end
   end
