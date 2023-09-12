@@ -14,7 +14,7 @@
 <%= render @bill %>
 
 <div class="container-fluid d-flex mt-3">
-  <%= link_to "Bills List", group_path(@bill.group_id), class: '' %>
+  <%= link_to "< Bills List", group_path(@bill.group_id), class: '' %>
 <% if can? :destroy, @bill %>
 <div class="mx-2">|</div> <%= button_to "Delete Bill", group_bill_path(@bill.group_id, @bill), method: :delete, class: 'border-0 text-primary' %>
 <% end %>

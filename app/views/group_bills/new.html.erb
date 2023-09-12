@@ -1,2 +1,8 @@
-<h1>GroupBills#new</h1>
-<p>Find me in app/views/group_bills/new.html.erb</p>
+<h1>New Group Bill</h1>
+
+<%= render "form", group_bill: @group_bill %>
+<br>
+
+<div>
+  <%= link_to "< Group Bills List", group_bills_path %>
+</div>
