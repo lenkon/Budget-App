@@ -7,15 +7,15 @@ RSpec.describe Group, type: :model do
                           user_id: @user.id)
   end
 
-  describe 'Validations' do    
+  describe 'Validations' do
     it 'is invalid without an icon' do
       @group.icon = 'Group'
       expect(@group).to_not be_valid
     end
 
     it 'is invalid without a name' do
-        @group.name = nil
-        expect(@group).to_not be_valid
-    end  
+      @group.name = nil
+      expect(@group).to_not be_valid
+    end
   end
 end

@@ -27,7 +27,7 @@ RSpec.describe Bill, type: :model do
       subject.amount = -4
       expect(subject).to_not be_valid
     end
-    
+
     it 'amount should be numeric' do
       subject.amount = 'One'
       expect(subject).to_not be_valid
