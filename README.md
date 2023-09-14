@@ -42,7 +42,7 @@
 <!-- VIDEO DEMO -->
 ## ⏯ Video <a name="video-demo"></a>
 
-https://www.loom.com/share/
+- [Live Video Presentation Link](https://www.loom.com/share/Project-Presentation-Ruby-on-Rails-Capstone-Project-01b0663e4665402fa58ba10672dfe138)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
